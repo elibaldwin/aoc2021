@@ -155,6 +155,7 @@ def spin(p: Tuple[int, int, int]) -> Tuple[int, int, int]:
     yield (-c, b, a)
     yield (-a, b, -c)
     yield (a, -c, b)
+    
     yield (a, c, -b)
     yield (a, -b, -c)
     yield (-c, -b, -a)
